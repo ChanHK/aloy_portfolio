@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Horizon Zero Dawn Portfolio</title>
+<style>
+.maincontainer {
+	max-width: 100%;
+	max-height: auto;
+}
+
+.column {
+	float: left;
+	width: 45%;
+	padding: 5px;
+	margin:auto;
+}
+
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.textbox {
+	background-color: white;
+	padding: 20px;
+	text-align: justify;
+	font-family: Sans-serif;
+	font-size: 15px;
+	line-height:25px;
+	padding-top: 100px;
+}
+
+.flex-container {
+	display: flex;
+	height: 200px;
+	padding-bottom: 100px;
+}
+
+.flex-column {
+	width: 25%;
+	padding:5px;
+}
+
+.container2 {
+	background-color: lightgrey;
+	display: flex;
+	height: 800px;
+	padding-bottom: 100px;
+}
+
+.container2-column {
+	width: 50%;
+	padding: 5;
+}
+
+.videocon {
+	background-color: white;
+	padding-bottom: 100px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="maincontainer">
+	<div>
+		<h1 style="font-size: 50px">Horizon Zero Dawn</h1>
+		<hr>
+	</div>
+
+	<div class="row">
+	  <div class="column">
+		<div class="textbox">
+			<h2 style="font-size: 50px"> About</h2>
+			<p>Aloy is the protagonist of Horizon Zero Dawn and the sole playable character throughout the game.</br> </p>
+			<p>A Nora Brave, Seeker and machine hunter of unparalleled skill, Aloy is the genetic clone of 21st century roboticist and engineer Dr. Elisabet Sobeck. She was created by GAIA, the governing artificial intelligence of Zero Dawn, a global terraforming system that Sobeck had designed and whose implementation she had spearheaded, which restored life to Earth after its eradication by the Faro Plague. GAIA created Aloy for the purpose of stopping HADES, a rogue AI bent on reactivating the Faro Plague in order to wipe out life again. Aloy succeeded, life on Earth and the humans of the new world that Zero Dawn created. In doing so, she unraveled the mysteries of why the world became as it is, and also learned the true nature of her origins.</p>
+			<p>She is voiced by Ashly Burch and modeled after Hannah Hoekstra.<p>
+		</div>
+	  </div>
+	  <div class="column">
+		<img src="aloy.png" alt="Aloy" style="width:100%">
+	  </div>
+	</div>
+
+
+
+	<div>
+		<div class="flex-container">
+		  <div class="flex-column">
+			<img src="young.jpg" alt="young aloy" style="width:100%">
+		  </div>
+		  <div class="flex-column">
+			<img src="bird.jpeg" alt="bird watching" style="width:100%">
+		  </div>
+		  <div class="flex-column">
+			<img src="fight.jpg" alt="aloy fighting" style="width:100%">
+		  </div>
+		  <div class="flex-column">
+			<img src="aim.jpg" alt="aloy aiming" style="width:100%">
+		  </div>
+		</div>
+	</div>
+
+	<div class="container2">
+		<div class="container2-column">
+			<img src="aloy_side_view.png" alt="aloy" style="width:60%; height: 600px; padding: 100px;">
+		</div>
+		
+		<div class="container2-column">
+			<h2 style="padding-top:100px; font-size:50px;"> Appearance </h2>
+			<h3 >Culture : Nora</h3>
+			<h3 >Gender : Female</h3>
+			<h3 >Birth : April 4th, 3021</h3>
+			<h3 >Location : The Embrace</h3>
+			<h3 >Profession : Machine Hunter</h3>
+			<img src="front_side.png" alt="aloy" style="width:60%; height: 300px; padding: 100px;">
+		</div>
+	</div>
+	
+	<div class="videocon">
+		<center>
+			<div>
+				<h2 style="font-size:50px;"> Game Play </h2>
+				<hr>
+			</div>
+			<video width="60%" height="500px" controls>
+				  <source src="fight.mp4" type="video/mp4">
+			</video>
+		</center>
+	</div>
+	
+	
+</div>
+
+</body>
+</html>
+
+
